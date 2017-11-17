@@ -315,10 +315,7 @@ ul#primary-menu li a:hover {
 	font-size:1.0em !important;
 }
 /*********** acf_forms **************/
-.acf-form{
-	width: 90%;
-	margin: 0 auto;
-}
+
 .acf-field-5a0d2796ae5ee, .acf-field-5a0d279eae5ef, .acf-field-5a0d27a6ae5f0{ /*lastname, middlename, firstname*/
 	display: inline-block;
 	width: 30%;
@@ -326,7 +323,7 @@ ul#primary-menu li a:hover {
 }
 .acf-field-5a0d27b4ae5f1{ /*gender*/
 	display: inline-block;
-	width: 7%;
+	width: 8%;
 	vertical-align: top;
 }
 .acf-field-5a0d27ccae5f2 { /*birthday*/
@@ -378,8 +375,8 @@ ul.acf-checkbox-list li{
 }
 .entry-header {
 	max-width: 100% !important;
-	width: 50% !important;
 	text-align: center;
+	padding: 0 !important;
 }
 .entry-title {
 	font-family: 'QuicksandMedium';
@@ -511,8 +508,22 @@ ul.acf-checkbox-list li{
 	border:0 !important;
 }
 
-.acf-field-5a0d2d0fe66db, .acf-field-5a0d2d18e66dc, .acf-field-5a0d2d34e66dd, .acf-field-5a0d2d52e66e0, .acf-field-5a0d2d5be66e1, .acf-field-5a0d2d6ae66e2 {
+.acf-field-5a0d2d0fe66db, .acf-field-5a0d2d18e66dc, .acf-field-5a0d2d34e66dd, .acf-field-5a0d2d52e66e0, .acf-field-5a0d2d5be66e1, .acf-field-5a0d2d6ae66e2	 {
     width: 33%;
     display: inline-block;
     vertical-align: top;
+}
+
+.status-publish {
+	width: 79%;
+	display: inline-block;
+}
+
+.form-content {
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+.widget-area{
+	display: inline-block;
 }
