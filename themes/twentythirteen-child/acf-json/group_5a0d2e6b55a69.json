@@ -1,0 +1,45 @@
+{
+    "key": "group_5a0d2e6b55a69",
+    "title": "reCaptcha",
+    "fields": [
+        {
+            "key": "field_5a0d2e7150ce0",
+            "label": "reCaptcha",
+            "name": "recaptcha",
+            "type": "recaptcha",
+            "value": null,
+            "instructions": "<div class=\"g-recaptcha\" data-sitekey=\"6Le89DgUAAAAACkNjdetWT3MPS7XhcU8xA7u__7N\"><\/div>",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "site_key": "6Le89DgUAAAAACkNjdetWT3MPS7XhcU8xA7u__7N",
+            "secret_key": "6Le89DgUAAAAAI2Ho2ssbL1tEzt2Xe0x6dGKuGNs",
+            "re_theme": "light",
+            "re_type": "image",
+            "re_size": "normal"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "recaptcha": 0,
+    "modified": 1510814027
+}
