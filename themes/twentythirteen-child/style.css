@@ -501,6 +501,29 @@ ul.acf-checkbox-list li{
 	.yes-btn-container	{
 		margin-top:4%;
 	}
+	.widget-area{
+		position: relative !important;
+		right: auto !important;
+		top: auto !important;
+	}
+
+	.status-publish {
+		width: 100% !important;
+	}
+
+
+	.form-content {
+		padding: 0 10px !important;
+	}
+	.acf-fields > .acf-field {
+		width: 100%;
+		display: block;
+	}
+
+	.acf-form-submit input[type="submit"]{
+		width: 100%;
+	}
+
 }
 
 /***********employer page********************/
@@ -509,9 +532,9 @@ ul.acf-checkbox-list li{
 }
 
 .acf-field-5a0d2d0fe66db, .acf-field-5a0d2d18e66dc, .acf-field-5a0d2d34e66dd, .acf-field-5a0d2d52e66e0, .acf-field-5a0d2d5be66e1, .acf-field-5a0d2d6ae66e2	 {
-    width: 33%;
-    display: inline-block;
-    vertical-align: top;
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .status-publish {
@@ -521,9 +544,12 @@ ul.acf-checkbox-list li{
 
 .form-content {
 	margin: 0 auto;
-	padding: 0 50px;
+	padding: 0 30px;
 }
 
 .widget-area{
-	display: inline-block;
+	position: absolute;
+	right: 70px;
+	top: 140px;
 }
+
