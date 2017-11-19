@@ -72,9 +72,10 @@
 </footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="http://www.franzduetes.com/wp-content/themes/franz/js/jquery.enllax.min.js"></script> 
 <script>
-        (function($){
+	(function($){
             //Plugin activation
             $(window).enllax();
 //            $('#some-id').enllax();
@@ -83,7 +84,25 @@
 //                ratio: 0.5,
 //                direction: 'vertical' // 'horizontal'
 //            });
-        })(jQuery);
-    </script>
+})(jQuery);
+</script>
+<script>
+	$(window).on('load scroll', function() {
+		var $e = $('.animated');
+		console.log($e)
+		$e.each(function(index){
+
+			var $window = $(window);
+
+			var docViewTop = $window.scrollTop();
+			var docViewBottom = docViewTop + 20 + $window.height();
+			var elemTop = $e.eq(index).offset().top;
+			var elemBottom = elemTop + $e.eq(index).height();
+			if (elemTop > docViewTop && elemBottom < docViewBottom){
+				$e.eq(index).addClass("fadeIn").css('visibility', 'visible');
+			}
+		});
+	});
+</script>
 </body>
 </html>
