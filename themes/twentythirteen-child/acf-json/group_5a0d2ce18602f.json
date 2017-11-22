@@ -74,180 +74,144 @@
             "maxlength": ""
         },
         {
-            "key": "field_5a0d2d3fe66de",
-            "label": "Contact Information",
-            "name": "contact_information",
-            "type": "group",
+            "key": "field_5a0d2d52e66e0",
+            "label": "Name",
+            "name": "name",
+            "type": "text",
             "value": null,
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
-            "sub_fields": [
-                {
-                    "key": "field_5a0d2d52e66e0",
-                    "label": "Name",
-                    "name": "name",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5a0d2d5be66e1",
-                    "label": "Contact Number",
-                    "name": "contact_number",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5a0d2d6ae66e2",
-                    "label": "Email Address",
-                    "name": "email_address",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5a0d2d74e66e3",
-                    "label": "Business Address",
-                    "name": "business_address",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                }
-            ]
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
-            "key": "field_5a0d2d86e66e4",
-            "label": "Login Information",
-            "name": "login_information",
-            "type": "group",
+            "key": "field_5a0d2d5be66e1",
+            "label": "Contact Number",
+            "name": "contact_number",
+            "type": "text",
             "value": null,
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
-            "sub_fields": [
-                {
-                    "key": "field_5a0d2d92e66e5",
-                    "label": "Username",
-                    "name": "username",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5a0d2dabe66e6",
-                    "label": "Auto Generated Password",
-                    "name": "auto_generated_password",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5a0d2db4e66e7",
-                    "label": "What accountant you are looking for?",
-                    "name": "what_accountant_you_are_looking_for",
-                    "type": "text",
-                    "value": null,
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                }
-            ]
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a0d2d6ae66e2",
+            "label": "Email Address",
+            "name": "email_address",
+            "type": "text",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a0d2d74e66e3",
+            "label": "Business Address",
+            "name": "business_address",
+            "type": "text",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a0d2d92e66e5",
+            "label": "Username",
+            "name": "username",
+            "type": "text",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a0d2dabe66e6",
+            "label": "Auto Generated Password",
+            "name": "auto_generated_password",
+            "type": "text",
+            "value": null,
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "hidden",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a0d2db4e66e7",
+            "label": "What accountant you are looking for?",
+            "name": "what_accountant_you_are_looking_for",
+            "type": "textarea",
+            "value": null,
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
@@ -256,6 +220,13 @@
                 "param": "page",
                 "operator": "==",
                 "value": "59"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "employer"
             }
         ]
     ],
@@ -283,5 +254,5 @@
     "active": 1,
     "description": "",
     "recaptcha": 0,
-    "modified": 1510903870
+    "modified": 1511247928
 }

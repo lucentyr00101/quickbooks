@@ -10,11 +10,11 @@ get_header(); ?>
 				<p class='top-left-intro'>Quickbooks Online lets you see how your business is doing instantly.</p>
 				<div class="sign-up-container">
 					<p>Quickbook expert?</p>
-					<input type="button" value="Sign up here" class="sign-up">
+					<a href="http://www.quickbooksplus.ph/accountant-form-application/"><input type="button" value="Sign up here" class="sign-up"></a>
 				</div>
 				<div class="yes-btn-container">
 					<p>I am looking for a Quickbook Expert</p>
-					<input type="button" value="YES, take me there!" class="yes-btn">
+					<a href="http://www.quickbooksplus.ph/employer-registration/"><input type="button" value="YES, take me there!" class="yes-btn"></a>
 				</div>
 			</div>
 			<div class="top-right">
@@ -41,7 +41,7 @@ get_header(); ?>
 					<span>"It gives me an overview of my business and lets me know how my business is doing."</span>
 				</div>
 				<div class="pricing-btn-container">
-					<input type="button" value="PLANS & PRICING" class="pricing-btn">
+					<a href="http://www.quickbooksplus.ph/about-quickbooks/#pricing"><input type="button" value="PLANS & PRICING" class="pricing-btn"></a>
 				</div>
 			</div>
 		</div>
@@ -50,7 +50,7 @@ get_header(); ?>
 				<p class='features-text-head'>Send invoices on-the-go.</p><br><br>
 				<p>Create and send custom online invoices from any device. The QuickBooks Online Mobile app automatically stores your data in the cloud and syncs across your devices, making it easy to manage your business on-the-go.</p><br>
 				<div class="features-btn-container">
-					<input type="button" value='SEE ALL FEATURES' class="features-btn">
+					<a href="http://www.quickbooksplus.ph/about-quickbooks/"><input type="button" value='SEE ALL FEATURES' class="features-btn"></a>
 				</div>
 			</div>
 			<div class="tab">
@@ -60,9 +60,9 @@ get_header(); ?>
 		<div class="expert animated" style="visibility:hidden;">
 			<div class="expert-text">
 				<p class='expert-text-head'>Looking for Quickbook Expert?</p><br><br>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p><br>
+				<p>Mybusybee Inc. can now lend all the best solutions in terms of any accounting-related issues, thanks to a team of professionals who are already equipped with the knowledge to efficiently execute the service as a QuickBooks Top ProAdvisor.</p><br>
 				<div class="expert-btn-container">
-					<input type="button" value='SIGN UP HERE' class="expert-btn">
+					<a href="http://www.quickbooksplus.ph/employer-registration/"><input type="button" value='SIGN UP HERE' class="expert-btn"></a>
 				</div>
 			</div>
 		</div>
@@ -71,11 +71,10 @@ get_header(); ?>
 				<div class="who-head-content"><span class="who-head">ABOUT THE COMPANY</span><br><br></div>
 				<p>MYBUSYBEE, INC., a VAS-licensed company under the National Telecommunications Commission, has developed and popularized the BUSYBEE brand in the SMS application and web design industry. BUSYBEE, a duly registered trademark under the Intellectual Property Office of the Philippines, describes our team working like a BEE to solve everyday problems. The company’s mission is to create high-quality and innovative applications that incorporate technology to unravel solutions for brands and companies. BUSYBEE designs and creates the dreams of our clients and codes them into reality.</p><br>
 				<div class="who-btn-container">
-					<input type="button" value='READ MORE' class="who-btn">
+					<a href="http://www.mybusybee.net" target="blank"><input type="button" value='READ MORE' class="who-btn"></a>
 				</div>
 			</div>
 		</div>
 	</div><!-- #content -->
 </div><!-- #primary -->
-
 <?php get_footer(); ?>

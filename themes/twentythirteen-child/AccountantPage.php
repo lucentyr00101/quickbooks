@@ -12,7 +12,6 @@ get_header(); ?>
 	<div id="content" class="site-content" role="main">
 		<div class="form-content">
 			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<header class="entry-header">
 						<h1 class="entry-title title-border"><?php the_title(); ?></h1>
@@ -22,16 +21,16 @@ get_header(); ?>
 						'post_id'  => 'new_post',
 						'field_groups'  => array(
 							'group_5a0d274e8bb90',
-							'group_5a0d2e6b55a69',
+/*							'group_5a0d2e6b55a69',*/
 						),
 						'new_post'  => array(
-							'post_type'  => 'page',
-							'post_status' => 'pending',
+							'post_type'  => 'accountant',
+							'post_status' => 'publish',
 						),
-						'updated_message' => __("Book a Venue", 'acf'),
+						'updated_message' => __("Submitted Successfully", 'acf'),
 						'submit_value'  => __('Submit', 'acf'),
 						'form_attributes' => array(
-							'name' => 'booking-form',
+							'name' => 'accountant-form',
 						),
 					));
 					?>
@@ -41,10 +40,9 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 				</article><!-- #post -->
 				<?php comments_template(); ?>
-			<?php endwhile; ?>
 			<div class="sidebar"><?php get_sidebar(); ?></div>
 		</div>
 	</div><!-- #content -->
 </div><!-- #primary -->
-
+<?php wp_footer(); ?>
 <?php get_footer(); ?>
