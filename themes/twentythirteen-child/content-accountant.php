@@ -41,8 +41,7 @@
 						<div class="find-details-work-exp">
 							<?php
 							if( have_rows('work_experience') ):?>
-							<p><strong>Work Experience:</strong></p> <?php
-							while ( have_rows('work_experience') ) : the_row(); ?>
+							<p><strong>Work Experience:</strong></p>
 							<table>
 								<thead>
 									<tr>
@@ -52,15 +51,16 @@
 									</tr>
 								</thead>
 								<tbody>
+								<?php
+								while ( have_rows('work_experience') ) : the_row(); ?>
 									<tr>
 										<td><?php the_sub_field('company'); ?></td>
 										<td><?php the_sub_field('years_of_experience'); ?></td>
 										<td><?php the_sub_field('position'); ?></td>
 									</tr>
-								</tbody>
-							</table>
 							<?php
 						endwhile;
+						?></tbody></table><?php
 					else :
 					endif;
 					?>
