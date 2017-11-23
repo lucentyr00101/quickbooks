@@ -14,7 +14,7 @@ get_header(); ?>
 				</div>
 				<div class="yes-btn-container">
 					<p>I am looking for a Quickbook Expert</p>
-					<a href="http://www.quickbooksplus.ph/employer-registration/"><input type="button" value="YES, take me there!" class="yes-btn"></a>
+					<a href="http://www.quickbooksplus.ph/accountant/"><input type="button" value="YES, take me there!" class="yes-btn"></a>
 				</div>
 			</div>
 			<div class="top-right">

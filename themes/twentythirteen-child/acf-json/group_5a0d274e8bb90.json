@@ -94,7 +94,7 @@
             "type": "select",
             "value": null,
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -102,8 +102,8 @@
                 "id": ""
             },
             "choices": {
-                "M": "M",
-                "F": "F"
+                "Male": "Male",
+                "Female": "Female"
             },
             "default_value": [],
             "allow_null": 0,
@@ -234,84 +234,110 @@
             ]
         },
         {
-            "key": "field_5a0d2982e5eea",
+            "key": "field_5a0d291dd377f",
             "label": "Skills",
-            "name": "skills_check",
-            "type": "checkbox",
+            "name": "skills",
+            "type": "group",
             "value": null,
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
                 "id": ""
             },
-            "choices": {
-                "Account Analysis": "Account Analysis",
-                "Account Reconciliation": "Account Reconciliation",
-                "Accounting Information Systems": "Accounting Information Systems",
-                "Payroll": "Payroll",
-                "Taxation": "Taxation",
-                "Financial Analysis": "Financial Analysis",
-                "Financial Reporting": "Financial Reporting",
-                "Financial Software": "Financial Software",
-                "Financial Statements": "Financial Statements"
-            },
-            "allow_custom": 0,
-            "save_custom": 0,
-            "default_value": [],
-            "layout": "vertical",
-            "toggle": 0,
-            "return_format": "value"
-        },
-        {
-            "key": "field_5a0d2a46a905d",
-            "label": "What kind of financial software?",
-            "name": "what_kind_of_software",
-            "type": "text",
-            "value": null,
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_5a0d2982e5eea",
-                        "operator": "==",
-                        "value": "Financial Software"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_5a0d29c0e5eec",
-            "label": "Other Skills",
-            "name": "other_skills",
-            "type": "textarea",
-            "value": null,
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5a0d2982e5eea",
+                    "label": "",
+                    "name": "skills_check",
+                    "type": "checkbox",
+                    "value": null,
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5a0d27b4ae5f1",
+                                "operator": "==",
+                                "value": "Male"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Account Analysis": "Account Analysis",
+                        "Account Reconciliation": "Account Reconciliation",
+                        "Accounting Information Systems": "Accounting Information Systems",
+                        "Payroll": "Payroll",
+                        "Taxation": "Taxation",
+                        "Financial Analysis": "Financial Analysis",
+                        "Financial Reporting": "Financial Reporting",
+                        "Financial Software": "Financial Software",
+                        "Financial Statements": "Financial Statements"
+                    },
+                    "allow_custom": 0,
+                    "save_custom": 0,
+                    "default_value": [],
+                    "layout": "vertical",
+                    "toggle": 0,
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_5a0d2a46a905d",
+                    "label": "What kind of financial software?",
+                    "name": "what_kind_of_software",
+                    "type": "text",
+                    "value": null,
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5a0d2982e5eea",
+                                "operator": "==",
+                                "value": "Financial Software"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5a0d29c0e5eec",
+                    "label": "Other",
+                    "name": "other_skills",
+                    "type": "textarea",
+                    "value": null,
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
         },
         {
             "key": "field_5a0d2ad2b76aa",
@@ -394,5 +420,5 @@
     "active": 1,
     "description": "",
     "recaptcha": 0,
-    "modified": 1511248177
+    "modified": 1511413644
 }
